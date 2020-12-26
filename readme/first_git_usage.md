@@ -14,16 +14,18 @@
      3) git init
      4) git remote add origin (git remote address) ex) https://github.com/hwajoon/gitTest.git
      5) git pull origin master  // 지정해 놓은 Repository에서 소스를 끌어옵니다.
-# 5. 현재 Git고의 상태를 Check !
+# 5. 현재 Git의 로그를 Check !
+     1) git log
+# 6. 현재 Git고의 상태를 Check !
      1) git status
-# 6. 변경된 파일들을 모두 Tracking  !
+# 7. 변경된 파일들을 모두 Tracking  !
      1) git add .
-# 7. 인식할 수 있는 commit을 달아줍니다.
+# 8. 인식할 수 있는 commit을 달아줍니다.
      1) git commit -m "message"   or  git commit -am "message"
-# 8. 실제로 Git에 PUSH
+# 9. 실제로 Git에 PUSH
       1) git push origin +master   or   git push -u origin master   or git push origin master
 
-# 9. Pull - Push command
+# 10. Pull - Push command
       1) init
           - git init
       2) .gitignore 파일 작성     
