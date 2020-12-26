@@ -12,23 +12,26 @@
      1) 로컬에 폴더 생성
      2) 생성된 폴더에서 gitbash 실행  ( git bash here )
      3) git init
-     4) git remote add origin (remote address) ex) https://github.com/hwajoon/gitTest.git
+     4) git remote add origin (git remote address) ex) https://github.com/hwajoon/gitTest.git
      5) git pull origin master  // 지정해 놓은 Repository에서 소스를 끌어옵니다.
 # 5. 현재 Git고의 상태를 Check !
      1) git status
 # 6. 변경된 파일들을 모두 Tracking  !
      1) git add .
 # 7. 인식할 수 있는 commit을 달아줍니다.
-     1) git commit -m "message"
+     1) git commit -m "message"   or  git commit -am "message"
 # 8. 실제로 Git에 PUSH
-      1) git push origin +master
+      1) git push origin +master   or   git push -u origin master   or git push origin master
 
 # 9. Pull - Push command
-      1) Pull
+      1) init
+          - git init
+      2) .gitignore 파일 작성     
+      3) Pull
           - git pull origin master
-      2) Push
+      4) Push
           - git status
-          - git add .
+          - git add .  or  git add <file명>
           - git commit -m "message"
           - git push origin +master 
 
