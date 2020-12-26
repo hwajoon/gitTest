@@ -15,8 +15,32 @@
      4) git remote add origin (git remote address) ex) https://github.com/hwajoon/gitTest.git
      5) git pull origin master  // 지정해 놓은 Repository에서 소스를 끌어옵니다.
 # 5. 현재 Git의 로그를 Check !
-     1) git log
-# 6. 현재 Git고의 상태를 Check !
+      1) git log  or    git log --graph --oneline
+<pre><code>
+LuckyHwajoon@DESKTOP-LPIHDHS MINGW64 /d/workspace/gitTest (master)
+          
+$ git log --graph --oneline
+* 79c895b (HEAD -> master, origin/master) Update first_git_usage.md
+* c530403 add branch guide file' q
+* dc83038 (sub2) Update first_git_usage.md
+* e2bed92 Update first_git_usage.md
+* 361869a Update first_git_usage.md
+* 1dd41af Update etc_command.md
+* dcc88fd Update etc_command.md
+* d46e5a2 modified markdown type
+* 26853b8 add etc command
+* b7c42e1 add guide files
+* ce2cfe9 Update README.md
+* 4fa999c Update README.md
+* 0a1ec39 add folder & file
+* b7a3f10 add txt file first
+* 1e98126 Update README.md
+* bf93883 Update README.md
+* 00fb9c4 Update README.md
+* fc73d07 Initial commit
+</code></pre>
+
+# 6. 현재 Git의 상태를 Check !
      1) git status
 # 7. 변경된 파일들을 모두 Tracking  !
      1) git add .
