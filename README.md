@@ -32,7 +32,7 @@
           - git commit -m "message"
           - git push origin +master 
 
-# 9. ETC
+# 10. ETC
 ////////
 ## ..create a new repository on the command line
 ### git init
