@@ -23,17 +23,26 @@
 # 8. 실제로 Git에 PUSH
       1) git push origin +master
 
+# 9. Pull - Push command
+      1) Pull
+          - git pull origin master
+      2) Push
+          - git status
+          - git add .
+          - git commit -m "message"
+          - git push origin +master 
+
 # 9. ETC
 ////////
 ## ..create a new repository on the command line
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/hwajoon/gitTest.git
-git push -u origin master
+### git init
+### git add README.md
+### git commit -m "first commit"
+### git remote add origin https://github.com/hwajoon/gitTest.git
+### git push -u origin master
 
 ///////////
 ## .. push an existing repository from the command line
-git remote add origin https://github.com/hwajoon/gitTest.git
-git push -u origin master
+### git remote add origin https://github.com/hwajoon/gitTest.git
+### git push -u origin master
 
