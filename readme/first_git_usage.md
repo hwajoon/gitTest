@@ -36,8 +36,11 @@
           - git add .  or  git add <file명>
           - git commit -m "message"
           - git push origin +master 
-
-# 10. ETC
+          
+# 11. git remote rm origin
+   1) git remote rm origin : 서버와 연결된 repo 끊기
+          
+# 12. ETC
 <pre><code>
 ////////
 ..create a new repository on the command line
