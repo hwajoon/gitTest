@@ -33,6 +33,26 @@ $ git branch
   sub2
 </code></pre>
 
+## git branch remote <branch-name>   /   git granch -d <branch-name>
+<pre><code>
+LuckyHwajoon@DESKTOP-LPIHDHS MINGW64 /d/workspace/gitTest (master)
+$ git branch
+* master
+  origin
+  sub1
+  sub2
+
+LuckyHwajoon@DESKTOP-LPIHDHS MINGW64 /d/workspace/gitTest (master)
+$ git branch -d origin
+Deleted branch origin (was 328e9f2).
+
+LuckyHwajoon@DESKTOP-LPIHDHS MINGW64 /d/workspace/gitTest (master)
+$ git branch
+* master
+  sub1
+  sub2
+</code></pre>
+
 ## git clone <git-remote-address>
 <pre><code>
 </code></pre>
